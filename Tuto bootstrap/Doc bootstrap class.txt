@@ -1,0 +1,61 @@
+BOOTSTRAP CLASS : 
+
+FONT : 
+
+<p class="h1">Hello World !</p>		h1 à h5
+
+<p class="display-1">Hello World !</p>	dsiplay 1 à 6 (moins épais)
+
+
+<p class="lead">Hello World !</p> 	plus fin encore
+
+
+<p class="lead text-center/start/end">Hello World !</p>	choisir position du texte sur sa ligne
+
+
+<p class="text-decoration-underline">Hello World !</p>	souligner
+	
+<p class="text-decoration-line-through">Hello World !</p>	barré
+
+<p class="fw-bold">Hello World !</p>	gras
+
+
+TXT-COLOR : 
+
+<p class="text-primary">Hello World ! </p>
+<p class="text-secondary">Hello World ! </p>
+<p class="text-info">Hello World ! </p>
+ Voir nom couleur sur getbootstrap
+
+BG-COLOR : 
+<p class="text-white bg-primary">Hello World ! </p>	texte blanc bg bleu
+
+
+BUTTON : 
+
+basic button
+<button class="btn btn-primary"> primaty button </button>	boutton bleu avec texte blanc (automatique)
+
+--------------------------------------------------------------
+
+Anchor tags as button : 
+<a href "#" class="btn btn-info">info anchor tag </a>	button-couleur
+<a href "#" class="btn btn-succes">succes anchor tag </a>
+
+--------------------------------------------------------------
+
+Button size :
+<button class="btn btn-lg/sm btn-couleur"> large/small button </button>
+
+-------------------------------------------------------------
+
+Outlined Styles :
+<button class="btn btn-outline-primary">outlined primaty button </button>
+<button class="btn btn-outline-primary btn-lg">large outlined primaty button </button>	outlined = bg blanc mais quand je passe la souris dessus le bg change de la couleur choisit (genre la c'est bleu)
+
+------------------------------------------------------------
+
+Button groups :
+<a href "#" class="btn btn-primary">Button 1 </a>
+<a href "#" class="btn btn-warining">Button 2</a>
+<a href "#" class="btn btn-dark">Button 3</a>       groupe de boutton quand on les mets bout à bout            
